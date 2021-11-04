@@ -45,6 +45,20 @@ a{
     border: 1px solid #cd3d0f;
 }
 
+/* text */
+h2{
+    font-size: 40px;
+}
+
+.text-blue{
+    font-size: 14px;
+    color: #217dd2;
+}
+
+.text-gray{
+    color: gray;
+}
+
 /* HEADER */
 header{
     font-family: Helvetica, arial, sans-serif;
@@ -148,10 +162,12 @@ header{
 
 
 /* MAIN */
-main{
-
+/* Main section */
+main section{
+    padding: 40px 0;
 }
 
+/* Jumbotron */
 .jumbotron{
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
@@ -159,9 +175,6 @@ main{
     background-position: center;
     margin-top: 110px;
     color: white;
-
-
-    
 }
 
 .jumbo-cta{
@@ -181,8 +194,27 @@ main{
     
 }
 
-.jumbo-text h2{
-    font-size: 40px;
+/* Game cover section */
+.game-cover-img{
+    margin: 10px 0;
+}
+
+.game-cover-img img{
+    border-radius: 20px;
+    padding: 2px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+}
+
+.game-cover-img.game-brd img{
+    
+    border-color: #217dd2;
+}
+
+/* Playstation 5 section */
+.playstation-5-text{
+    text-align: center;
 }
 
 /* FOOTER */
