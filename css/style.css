@@ -1,0 +1,141 @@
+/* COMMON */
+body{
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+/* Reset img */
+img{
+    max-width: 100%;
+}
+
+/* Reset a */
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Button */
+.ms_btn{
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.ms_btn-dark{
+    color: white;
+    background-color: #363636;
+    border: 1px solid #363636;
+}
+
+/* HEADER */
+header{
+    font-family: Helvetica, arial, sans-serif;
+}
+
+/* Header top */
+.ms_header-top{
+    background-color: black;
+}
+
+/* Logo sony */
+.ms_header-top .logo-sony{
+    padding: 5px 0;
+    text-align: right;
+}
+
+.logo-sony img{
+    width: 70px;
+    display: inline-block;
+}
+
+/* Header bottom */
+.ms_header-bottom{
+    padding: 10px 0;
+}
+/* Menu header left and right */
+.menus-header-left ul,
+.menus-header-right ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menus-header-left li,
+.menus-header-right li{
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.menus-header-left a{
+    color: black;
+}
+
+.menus-header-right li:first-child a{
+    color: black;
+}
+
+.menus-header-left{
+    text-align: left;
+}
+
+.menus-header-right,
+.ms_header-burger{
+    text-align: right;
+}
+
+/* Search icon */
+.search svg{
+    width: 25px;
+}
+
+/* Chevron icon */
+.menus-chevron svg{
+    width: 10px;
+}
+
+.menus-chevron-hover svg{
+    width: 10px;
+    display: none;
+}
+
+/* Menu header hover */
+.menus-header-left a:hover .menus-chevron svg,
+.menus-header-right a:hover .menus-chevron svg{
+    display: none;
+}
+
+.menus-header-left a:hover .menus-chevron-hover svg,
+.menus-header-right a:hover .menus-chevron-hover svg{
+    display: inline-block;
+}
+
+.menus-header-left a:hover,
+.menus-header-right li:first-child a:hover{
+    color: #0270d1;
+}
+
+.ms_btn-dark:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid #363636;
+}
+
+/* Header burger */
+.ms_header-burger i{
+    font-size: 25px;
+    padding: 5px 13px;
+    border-radius: 3px;
+    color: grey;
+    border: 1px solid lightgray;
+}
+
+
+/* MAIN */
+main{
+
+}
+
+/* FOOTER */
+footer{
+
+}
