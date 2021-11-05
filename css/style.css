@@ -1,7 +1,13 @@
 /* COMMON */
 body{
     font-family: Arial, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
+}
+
+/* Wrapper */
+.wrapper{
+    width: 95%;
+    margin: 0 auto;
 }
 
 /* Reset img */
@@ -19,7 +25,7 @@ a{
 .ms_btn{
     border-radius: 20px;
     padding: 5px 10px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .ms_btn-dark{
@@ -29,9 +35,9 @@ a{
 }
 
 .ms_btn-dark:hover{
-    color: #363636;
-    background-color: white;
-    border: 1px solid #363636;
+    color: white;
+    background-color: #131313;
+    border: 1px solid #131313;
 }
 
 .ms_btn-red{
@@ -41,9 +47,9 @@ a{
 }
 
 .ms_btn-red:hover{
-    color: #cd3d0f;
-    background-color: white;
-    border: 1px solid #cd3d0f;
+    color: white;
+    background-color: #f84c13;
+    border: 1px solid #f84c13;
 }
 
 .ms_btn-blue{
@@ -53,9 +59,9 @@ a{
 }
 
 .ms_btn-blue:hover{
-    color: #2d64e6;
-    background-color: white;
-    border: 1px solid #2d64e6;
+    color: white;
+    background-color: #3270ff;
+    border: 1px solid #3270ff;
 }
 
 .ms_btn-lightgray{
@@ -64,9 +70,27 @@ a{
     border: 1px solid #d9dadc;
 }
 
+.ms_btn-lightgray:hover{
+    color: #3a6de5;
+    background-color: #e0e0e2;
+    border: 1px solid #e0e0e2;
+}
+
+.ms_btn-white{
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.ms_btn-white:hover{
+    color: black;
+    background-color: lightgray;
+    border: 1px solid lightgray;
+}
+
 /* text */
 h2{
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .text-blue{
@@ -205,7 +229,7 @@ header{
 /* MAIN */
 /* Main section */
 main section{
-    padding: 40px 0;
+    padding: 60px 0;
 }
 
 /* Jumbotron */
@@ -223,12 +247,13 @@ main section{
 .jumbo-and-takes-img img{
     width: 60%;
     min-width: 250px;
+    max-width: 300px;
     padding-bottom: 20px;
 }
 
 .jumbo-and-takes-text h2,
 .jumbo-and-takes-text p{
-    padding: 10px 0;
+    padding: 20px 0;
     
 }
 
@@ -303,8 +328,6 @@ main section{
 }
 
 /* Ps4 section */
-
-
 .reg-ps4{
     position: relative;
     bottom: 10px;
@@ -314,29 +337,35 @@ main section{
 
 /* PS plus section */
 .ps-plus{
-    
-}
-.ps-plus{
     background-color: #bebcbb;
+}
+
+.ps-plus,
+.ps-now{
     padding:0;
 }
 
-.ps-plus-content{
+.ps-plus-and-now-content{
     padding: 40px 0;
 }
 
-.ps-plus-img img{
+.ps-plus-and-now-img img{
     width: 60%;
 }
 
-.ps-plus-text p{
-    font-size: 14px;
-    padding: 15px 0;
+.ps-plus-and-now-text p{
+    padding: 30px 0;
 }
 
 /* Discount section */
 .discount-img{
     margin-bottom: 50px;
+}
+
+/* PS now section */
+.ps-now{
+    background-color: #161c3b;
+    color: white;
 }
 
 /* FOOTER */
