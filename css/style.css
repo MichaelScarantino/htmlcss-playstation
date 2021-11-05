@@ -52,6 +52,18 @@ a{
     border: 1px solid #2d64e6;
 }
 
+.ms_btn-blue:hover{
+    color: #2d64e6;
+    background-color: white;
+    border: 1px solid #2d64e6;
+}
+
+.ms_btn-lightgray{
+    color: #3a6de5;
+    background-color: #d9dadc;
+    border: 1px solid #d9dadc;
+}
+
 /* text */
 h2{
     font-size: 40px;
@@ -299,8 +311,27 @@ main section{
     font-size: 14px;
 }
 
+/* PS plus section */
+.ps-plus{
+    
+}
+.ps-plus{
+    background-color: #bebcbb;
+    padding:0;
+}
 
+.ps-plus-content{
+    padding: 40px 0;
+}
 
+.ps-plus-img img{
+    width: 60%;
+}
+
+.ps-plus-text p{
+    font-size: 14px;
+    padding: 15px 0;
+}
 
 /* FOOTER */
 footer{
@@ -321,6 +352,10 @@ footer{
         display: block;
     }
     
+    /* PS plus */
+    .ps-plus-content{
+        padding: 0;
+    }
 }
 
 @media (min-width: 992px) {
