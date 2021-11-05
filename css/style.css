@@ -19,6 +19,7 @@ a{
 .ms_btn{
     border-radius: 20px;
     padding: 5px 10px;
+    font-size: 16px;
 }
 
 .ms_btn-dark{
@@ -43,6 +44,12 @@ a{
     color: #cd3d0f;
     background-color: white;
     border: 1px solid #cd3d0f;
+}
+
+.ms_btn-blue{
+    color: white;
+    background-color: #2d64e6;
+    border: 1px solid #2d64e6;
 }
 
 /* text */
@@ -213,11 +220,77 @@ main section{
 }
 
 /* Playstation 5 section */
+.playstation-5-content{
+    padding-bottom: 50px;
+}
+
+.playstation-5-content h2{
+    padding-bottom: 20px;
+}
+
 .playstation-5-text{
     text-align: center;
+}
+
+.brd-bot-blue{
+    border-bottom: 3px solid #217dd2;
+}
+
+.content-img-ps5{
+    text-align: center;
+    height: 100%;
+}
+
+.content-img-ps5 img{
+    opacity: 70%;
+}
+
+.content-img-ps5.no-opacity img{
+    opacity: 100%;
+}
+
+.content-img-ps5 p{
+    display: none;
+}
+
+.tm-ps5{
+    font-size: 8px;
+    position: relative;
+    bottom: 5px;
+    left: 0;
 }
 
 /* FOOTER */
 footer{
 
+}
+
+@media (min-width: 768px) {
+    /* Playstation 5 section */
+    .console-ps5-text{
+        padding-top: 55px;
+    }
+
+    .content-img-ps5 img{
+        max-width: 50%;
+    }
+
+    .content-img-ps5 p{
+        display: block;
+    }
+    
+}
+
+@media (min-width: 992px) {
+    /* Playstation 5 section */
+    .console-ps5-text{
+        padding-top: 80px;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* Playstation 5 section */
+    .console-ps5-text{
+        padding-top: 95px;
+    }
 }
