@@ -226,15 +226,15 @@ main section{
 }
 
 /* Playstation 5 section */
-.playstation-5-content{
+.playstation-5-and-4-content{
     padding-bottom: 50px;
 }
 
-.playstation-5-content h2{
+.playstation-5-and-4-content h2{
     padding-bottom: 20px;
 }
 
-.playstation-5-text{
+.playstation-5-and-4-text{
     text-align: center;
 }
 
@@ -288,6 +288,17 @@ main section{
 .new-releases img{
     border: none;
 }
+
+/* Ps4 section */
+
+
+.reg-ps4{
+    position: relative;
+    bottom: 10px;
+    left: 0;
+    font-size: 14px;
+}
+
 
 
 
