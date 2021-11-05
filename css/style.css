@@ -271,6 +271,26 @@ main section{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
+/* New releases section */
+.new-releases{
+    background-color: #1f1f1f;
+    color:white;
+}
+
+.new-releases h3{
+    padding: 10px 0;
+}
+
+.new-releases .game-cover-img{
+    padding-bottom: 30px;
+}
+
+.new-releases img{
+    border: none;
+}
+
+
+
 /* FOOTER */
 footer{
 
