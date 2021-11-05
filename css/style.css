@@ -78,6 +78,19 @@ h2{
     color: gray;
 }
 
+.playstation-text{
+    text-align: center;
+}
+
+/* Playstation content */
+.playstation-content{
+    padding-bottom: 50px;
+}
+
+.playstation-content h2{
+    padding-bottom: 20px;
+}
+
 /* banner */
 .ms_banner{
     background-size: cover;
@@ -238,18 +251,6 @@ main section{
 }
 
 /* Playstation 5 section */
-.playstation-5-and-4-content{
-    padding-bottom: 50px;
-}
-
-.playstation-5-and-4-content h2{
-    padding-bottom: 20px;
-}
-
-.playstation-5-and-4-text{
-    text-align: center;
-}
-
 .brd-bot-blue{
     border-bottom: 3px solid #217dd2;
 }
@@ -331,6 +332,11 @@ main section{
 .ps-plus-text p{
     font-size: 14px;
     padding: 15px 0;
+}
+
+/* Discount section */
+.discount-img{
+    margin-bottom: 50px;
 }
 
 /* FOOTER */
