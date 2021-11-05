@@ -66,6 +66,14 @@ h2{
     color: gray;
 }
 
+/* banner */
+.ms_banner{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
 /* HEADER */
 header{
     font-family: Helvetica, arial, sans-serif;
@@ -73,6 +81,7 @@ header{
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
 /* Header top */
@@ -177,11 +186,8 @@ main section{
 /* Jumbotron */
 .jumbotron{
     background-image: url(../img/jumbo-bg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     margin-top: 110px;
-    color: white;
+    
 }
 
 .jumbo-cta{
@@ -189,14 +195,14 @@ main section{
     padding-bottom: 40px;
 }
 
-.jumbo-img img{
+.jumbo-and-takes-img img{
     width: 60%;
     min-width: 250px;
     padding-bottom: 20px;
 }
 
-.jumbo-text h2,
-.jumbo-text p{
+.jumbo-and-takes-text h2,
+.jumbo-and-takes-text p{
     padding: 10px 0;
     
 }
@@ -258,6 +264,11 @@ main section{
     position: relative;
     bottom: 5px;
     left: 0;
+}
+
+/* It takes game section */
+.it-takes-game{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
 /* FOOTER */
