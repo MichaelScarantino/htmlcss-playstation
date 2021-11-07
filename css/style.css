@@ -12,7 +12,7 @@ body{
 
 /* Reset img */
 img{
-    max-width: 100%;
+    width: 100%;
 }
 
 /* Reset a */
@@ -23,8 +23,8 @@ a{
 
 /* Button */
 .ms_btn{
-    border-radius: 20px;
-    padding: 5px 10px;
+    border-radius: 25px;
+    padding: 8px 16px;
     font-size: 18px;
 }
 
@@ -362,16 +362,34 @@ main section{
     margin-bottom: 50px;
 }
 
+
+
 /* PS now section */
 .ps-now{
     background-color: #161c3b;
     color: white;
 }
 
+/* Social section */
+.social{
+    text-align: center;
+}
+
+.social-text h2{
+    padding-bottom: 30px;
+}
+
+.social-img img{
+    padding-bottom: 20px;
+}
+
+
+
 /* FOOTER */
 footer{
 
 }
+
 
 @media (min-width: 768px) {
     /* Playstation 5 section */
@@ -391,6 +409,7 @@ footer{
     .ps-plus-content{
         padding: 0;
     }
+    
 }
 
 @media (min-width: 992px) {
@@ -405,4 +424,10 @@ footer{
     .console-ps5-text{
         padding-top: 95px;
     }
+
+    /* Discount */
+    .discount-img img{
+        max-width: 550px;
+    }
+
 }
