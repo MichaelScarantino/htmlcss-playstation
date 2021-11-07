@@ -21,6 +21,13 @@ a{
     display: inline-block;
 }
 
+/* Reset ul */
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
 /* Button */
 .ms_btn{
     border-radius: 25px;
@@ -155,13 +162,6 @@ header{
     background-color: white;
 }
 /* Menu header left and right */
-.menus-header-left ul,
-.menus-header-right ul{
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
 .menus-header-left li,
 .menus-header-right li{
     display: inline-block;
@@ -387,10 +387,54 @@ main section{
 
 /* FOOTER */
 footer{
+    background-color: #01439c;
+    color: white;
+    font-size: 16px;
+}
 
+footer a{
+    color: inherit;
+}
+
+.footer-logo,
+.footer-logo-sie{
+    padding-top: 80px;
+}
+
+.footer-logo img{
+    width: 100px;
+}
+
+.footer-country{
+    padding: 50px 0;
+}
+
+.footer-country img{
+    width: 20px;
+}
+
+.footer-links{
+    padding-bottom: 10px;
+}
+
+.footer-links li{
+    padding-bottom: 10px;
 }
 
 
+.footer-logo-sie img{
+    width: 150px;
+}
+
+.footer-text{
+    padding-bottom: 80px;
+}
+
+.footer-text a{
+    text-decoration: underline;
+}
+
+/* Media query */
 @media (min-width: 768px) {
     /* Playstation 5 section */
     .console-ps5-text{
@@ -410,11 +454,17 @@ footer{
         padding: 0;
     }
     
+   
 }
 
 @media (min-width: 992px) {
     /* Playstation 5 section */
     .console-ps5-text{
+        padding-top: 80px;
+    }
+
+     /* FOOTER */
+     .footer-links{
         padding-top: 80px;
     }
 }
