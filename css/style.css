@@ -500,6 +500,10 @@ footer a{
      .footer-links li{
         margin: 0;
     }
+
+    .footer-logo-sie{
+        padding-top: 0;
+    }
 }
 
 @media (min-width: 1200px) {
