@@ -341,6 +341,10 @@ main section{
     font-size: 14px;
 }
 
+.playstation-4-content-img h3{
+    font-size: 40px;
+}
+
 /* PS plus section */
 .ps-plus{
     background-color: #bebcbb;
@@ -385,7 +389,7 @@ main section{
     text-align: center;
 }
 
-.social-text h3{
+.social-text h4{
     padding-bottom: 30px;
     font-size: 30px;
 }
