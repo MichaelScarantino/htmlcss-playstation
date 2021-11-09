@@ -365,7 +365,8 @@ main section{
 }
 
 .ps-advantages-text p{
-    padding: 30px 0;
+    font-size: 16px;
+    padding: 10px 0;
 }
 
 /* Discount section */
@@ -484,8 +485,8 @@ footer a{
         display: block;
     }
     
-    /* PS plus */
-    .ps-plus-content{
+    /* PS advantages */
+    .ps-advantages-content{
         padding: 0;
     }
 }
